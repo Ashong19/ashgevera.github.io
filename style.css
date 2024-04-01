@@ -44,6 +44,7 @@ body{
 
 .container{
     padding: 10px 10%;
+    margin-bottom: 100px;
 }
 
 nav{
@@ -185,13 +186,11 @@ section{
 /* About */
 
 .about{
-    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    padding-bottom: 6rem;
 }
 
 .heading{
@@ -242,6 +241,8 @@ section{
 .about-content p{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    text-align: justify;
+
 }
 
 .btn-box.btns{
@@ -378,7 +379,6 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
-    margin-top: 50px;
 }
 .projects{
     border-radius: 10px;
